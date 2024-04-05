@@ -52,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'hello_azure.middleware.WWWRedirectMiddleware',
 ]
 
 ROOT_URLCONF = 'quickstartproject.urls'
